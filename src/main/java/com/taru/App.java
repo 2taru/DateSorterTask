@@ -30,7 +30,7 @@ public class App
 
         var dates = dateSorter.sortDates(unsortedDates);
 
-        dates.forEach(d -> System.out.println(d.getMonth() + " - " + d));
+        dates.forEach(System.out::println);
 
     }
 }
